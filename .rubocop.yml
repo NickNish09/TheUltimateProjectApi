@@ -8,6 +8,11 @@ AllCops:
     - 'db/**/*'
     - 'script/**/*'
     - 'bin/**/*'
+    - 'config/**/*'
+    - 'Rakefile'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+    - 'config.ru'
 
 Metrics/LineLength:
   Max: 110
