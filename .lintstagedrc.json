@@ -1,3 +1,4 @@
 {
-  "*.rb": "bundle exec rubocop --force-exclusion"
+  "*.rb": "bundle exec rubocop --force-exclusion",
+  "*_spec.rb": "bundle exec rspec"
 }
