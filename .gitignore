@@ -30,3 +30,5 @@
 .idea/
 .generators
 .rakeTasks
+
+node_modules/
