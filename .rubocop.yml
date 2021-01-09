@@ -14,6 +14,7 @@ AllCops:
     - 'vendor/**/*'
     - 'node_modules/**/*'
     - 'config.ru'
+    - 'lib/generators/**/*'
 
 Metrics/LineLength:
   Max: 110
