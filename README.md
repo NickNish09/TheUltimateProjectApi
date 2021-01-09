@@ -8,3 +8,4 @@ Starter project with some infra configuration
 - Rspec
 - PR Template
 - Github CI
+- Custom Generators
