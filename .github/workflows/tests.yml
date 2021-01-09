@@ -1,9 +1,6 @@
-name: Verify
+name: Tests
 on:
   push:
-    branches:
-      - main
-      - develop
   pull_request:
     branches:
       - main
@@ -27,7 +24,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
       - name: Ruby gem cache
